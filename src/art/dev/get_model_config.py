@@ -30,7 +30,7 @@ def get_model_config(
                 0.79 if enable_sleep_mode else 0.55
             ),  # Reduce if out of memory
             max_lora_rank=8,
-            use_async=True,
+            #use_async=True,
         )
     else:
         init_args = InitArgs(
